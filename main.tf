@@ -1,7 +1,7 @@
 module "db" {
   source = "terraform-aws-modules/rds/aws"
 
-  identifier = "my-first-db"
+  identifier = "mydb"
 
   engine            = "mysql"
   engine_version    = "5.7"
