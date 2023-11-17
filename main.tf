@@ -12,7 +12,7 @@ module "db" {
   username = "user"
   port     = "3306"
 
-  iam_database_authentication_enabled = true
+  iam_database_authentication_enabled = false
 
   vpc_security_group_ids = ["sg-094d050e4503395d5"]
 
