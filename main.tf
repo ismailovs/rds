@@ -14,7 +14,7 @@ module "db" {
 
   iam_database_authentication_enabled = true
 
-  vpc_security_group_ids = ["sg-0a22dd1058abc5a6b"]
+  vpc_security_group_ids = ["sg-094d050e4503395d5"]
 
   tags = {
     Owner       = "user"
